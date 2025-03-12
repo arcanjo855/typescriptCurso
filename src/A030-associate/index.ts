@@ -59,5 +59,4 @@ console.log(maquinaEscrever)
 
 escritor.ferramenta = caneta
 escritor.ferramenta = maquinaEscrever
-escritor.ferramenta = null
 escritor.escrever()
