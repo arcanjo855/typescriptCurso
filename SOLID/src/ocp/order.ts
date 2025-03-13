@@ -18,7 +18,7 @@ export class Order{
         }
 
         this._oderStatus = 'closed'
-        this.sendMessage(`seu pedido foi recebido`)
+        this.sendMessage(`total do pedido: ${this.cart.total()}, total do pedido com desconto: ${this.cart.totalWithDiscount()}`)
         this.saveOrder()
         this.cart.clear()
     }
